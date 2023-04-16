@@ -1,6 +1,6 @@
 Hi there!
 ----
-I'm currently studying Mechanical Engineering in Technical School of Heraklion, Crete.
+I'm currently studying Mechanical Engineering in Technical School of Crete.
 
 Interesting
 -----
