@@ -1,0 +1,183 @@
+%-------------------------
+% CV for Northeastern University Faculty in Latex
+% Author : Zoe Kearney
+% Based off of: https://www.overleaf.com/latex/templates/coles-resume-template/qhpynjcvjpcj
+% Follows: https://theprofessorisin.com/2016/08/19/dr-karens-rules-of-the-academic-cv/
+% License : MIT
+%------------------------
+
+% Document class and font size
+\documentclass[a4paper,9pt]{extarticle}
+
+% Packages
+\usepackage[utf8]{inputenc} % For input encoding
+\usepackage[LGR]{fontenc}
+\usepackage{csquotes}
+\usepackage[T1]{fontenc}
+\usepackage[english, greek]{babel}
+\usepackage{geometry} % For page margins
+\geometry{a4paper, margin=1in} % Set paper size and margins
+\usepackage{titlesec} % For section title formatting
+\usepackage{enumitem} % For itemized list formatting
+\usepackage{hyperref} % For hyperlinks
+\hypersetup{colorlinks=true, linkcolor=black, citecolor=black, urlcolor=black}
+
+% Formatting
+\setlist{noitemsep} % Removes item separation
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}[\titlerule] % Section title format
+\titlespacing*{\section}{0pt}{\baselineskip}{\baselineskip} % Section title spacing
+
+% Begin document
+\begin{document}
+
+\newcommand{\en}[1]{\selectlanguage{english}\text{#1}\selectlanguage{greek}}
+% Disable page numbers
+\pagestyle{empty}
+
+% Header
+\begin{center}
+\textbf{\Large Νικόλας Τοροσιάν }\\[3pt] % Name
+\textbf{Βιογραφικό Σημείωμα}\\[1pt] % CV
+Αθήνα, Ελλάδα
+\selectlanguage{english}
+ | \href{mailto:niktor32@gmail.com}{niktor32@gmail.com} | (0030) 6974621399 | \href{https://www.linkedin.com/in/nikolas-torosian-700235273/}{linkedin.com/in/nikolas-torosian} % Contact info
+\selectlanguage{greek}
+\end{center}
+
+%------------------------
+
+% Education Section
+\section*{Εκπαίδευση}
+
+\noindent
+\begin{itemize}
+  \item{\textbf{πτυχίο Μηχανολόγου Μηχανικού Τ.Ε.}} \\
+        \textbf{2024}, Ελληνικό Μεσογειακό Πανεπιστήμιο \\
+\noindent
+  \item{\textbf{Απολυτήριο Λυκείου}} \\
+        \textbf{2013--2014}, Εράσμειος Ελληνογερμανική Σχολή \\
+\end{itemize}
+
+% Employment Section
+\section*{Εργασιακή εμπειρία}
+\noindent
+\begin{itemize}
+  \item{\textbf{Πρακτική άσκηση}}\\
+        \textbf{11/2023 έως 04/2024}, Κοιν.Σ.Επ. \selectlanguage{english}CommonsLab\selectlanguage{greek} \\
+        Το μεγαλύτερο μέρος της πρακτικής στην εταιρία αφορούσε τον σχεδιασμό και κατασκευή με την μέθοδο της τρισδιάστατης εκτύπωσης τεμαχίων τόσο για εσωτερική χρήση, όσο και για ηλεκτρονικές συσκευές που προορίζονταν για χρήση από τον γενικό πληθυσμό ή/και βιομηχανικό περιβάλλον. \\
+  \item{\textbf{Χειρηστής Στράτζας 4 τόνων \selectlanguage{english}N.C. \selectlanguage{greek} εργαλειομηχανής}} \\
+        \textbf{06/2022 έως 12/2022}, Ματαλιωτάκης Α.Ε. Ηράκλειο, Κρήτης \\
+        Κάποια από τα έργα που αναλήφθηκαν ήταν χωνευτή υδρορροή με δύο σημεία απόληξης των υδάτων και μοναδικό σημείο εκίνησης με σύμπλεξη των επιμέρους υδρορροών (7 και 9 μέτρα αντίστοιχα). Άλλα τεμάχια που κατασκευάστηκαν ήταν εξωτερικά και εσωτερικά τμήματα αυτοκινήτων (προφυλακτίρες και εσωτερικές επενδύσεις), αγροτικά εργαλεία, ενισχύσεις ψαλιδιών ανυψωτικών οχημάτων κ.α.. \\
+\end{itemize}
+
+%------------------------
+
+% Publications Section
+% \section*{Επιστημονικές δημοσιεύσεις}
+
+%------------------------
+
+% Conference Activity Section
+\section*{Συνέδρια}
+
+\subsection*{Άρθρα που παρουσιάστηκαν}
+\selectlanguage{english}
+\begin{itemize}
+  \item{\textbf{Filtering approaches for wind tunnel power measurements in an inverter
+        induced noise environment}} \\
+        \selectlanguage{greek}
+        \textbf{1 Ιουνίου 2022} \\
+        \selectlanguage{english}
+        DEMSEE-2022 14th Deregulated Electricity Market issues in South-Eastern Europe \\
+        \selectlanguage{greek}
+        Νικόλαος Παπαδάκης, Κωνσταντίνος Κονταξάκης, Νικόλαος Τοροσιάν
+\end{itemize}
+
+%------------------------
+
+\selectlanguage{greek}
+% Research Experience Section
+\section*{Ερευνητική Εμπειρία}
+\begin{itemize}
+\item{\textbf{Σχεδιασμός και ανάπτυξη περιβλήματος ηλεκτρονικής συσκευής ανάγνωσης ραδιοσυχνοτήτων}} \\
+        \textbf{11/23 έως 04/24} \\
+        Πρακτική άσκηση στο \selectlanguage{english}CommonsLab\selectlanguage{greek} \\
+        Σχεδιάστηκε και κατασκευάστηκε με τρισδιάσταση εκτύπωση περίβλημα
+        ηλεκτρονικής συσκευής με ψηφιακή οθόνη με δυνατότητα ανάγνωσης και
+        εγγραφής ετικετών ραδιοσυχνοτήτων. Στο πλαίσιο ερευνητικού προγράμματος
+        της Ε.Ε. με τίτλο \selectlanguage{english}Better Factory\selectlanguage{greek}.\\
+\item{\textbf{Ανάλυση σημάτων και απομείωση θορύβου από ψηφιακά αισθητήρια όργανα}}\\
+        \textbf{2021 - 2023} \\
+        Ελληνικό Μεσσογειακό Πανεπιστήμιο \\
+        Ανάλυση γραμμικά καταγεγραμμένων σημάτων και συνδιασμός γραμμικών
+        φίλτρων διέλευσης χαμηλών συχνοτήτων. Διερευνήθηκαν δίαφορα ψηφιακά φίλτρα
+        για την επιλογή του αποδοτικότερου σε θόρυβο υψηλών συχνοτήτων. \\
+\end{itemize}
+
+%------------------------
+
+% % Professional Skills Section
+\section*{Επαγγελματικές δεξιότητες}
+
+\begin{itemize}
+% \noindent
+% \newline
+% \textbf{Skill} \\
+% Maecenas ultricies augue a turpis viverra iaculis. Fusce a lorem est. Phasellus a metus dignissim, commodo eros eget, tempor ipsum.  \\
+
+% \noindent
+\selectlanguage{english}
+\item{\textbf{CAD/CAM/CAE Softwares}} \\
+        \selectlanguage{greek}
+        Αρκετά καλό επίπεδο χρήσης όλων των λογισμικών της \selectlanguage{english}Autodesk\selectlanguage{greek} με ιδιαίτερες γνώσεις στα \selectlanguage{english}Inventor, Fusion360, AutoCad\selectlanguage{greek} και γενικές γνώσεις μοντελοποίησης στατικής ανάλυσης στο περιβάλλον \selectlanguage{english}PTC Creo\selectlanguage{greek}. \\
+
+\selectlanguage{english}
+\item{\textbf{Python Programming Language}} \\
+        \selectlanguage{greek}
+        Αρκετά καλά με έμφαση στα εργαλεία ανάλυσης και επεξεργασίας σημάτων. Προσωπικά \selectlanguage{english}project\selectlanguage{greek} στην γλώσσα, όπως διαδραστικό
+        πάζλ με κωδικούς \selectlanguage{english}QR\selectlanguage{greek} προσέφεραν πιο
+        αναλυτική γνώση του οικοσυστήματος της γλώσσας. \\
+
+\selectlanguage{english}
+\item{\textbf{Zig Programming Language}} \\
+        \selectlanguage{greek}
+        Αρκετά καλά με έμφαση στα εργαλεία τερματικών διεπαφών \selectlanguage{english}(command line interfaces)\selectlanguage{greek}.
+        Πολύ καλή γνώση του οικοσυστήματος της γλώσσας με δυνατότητα εξαγωγής
+        εκτελέσιμων αρχείων σε διαφορετικά λειτουργικά συστήματα (\selectlanguage{english}GNU/Linux, OSX, Windows\selectlanguage{greek}). \\
+
+\selectlanguage{english}
+\item{\textbf{Rust Programming Language}} \\
+        \selectlanguage{greek}
+        \noindent
+        Καλή γνώση της βασικής βιβλιοθήκης και των εργαλείων ανάλυσης σημάτων
+        και κατασκευής γραφημάτων για απεικόνηση δεδομένων.
+        Αρκετά καλή γνώση του οικοσυστήματος της γλώσσας. \\
+
+\end{itemize}
+% \noindent
+% \textbf{Skill} \\
+% Maecenas ultricies augue a turpis viverra iaculis. Fusce a lorem est. Phasellus a metus dignissim, commodo eros eget, tempor ipsum.
+
+
+%------------------------
+
+% % Professional Memberships Section
+% \section*{PROFESSIONAL MEMBERSHIPS}
+
+% \noindent
+% \newline
+% \textbf{Professional Organization} \\
+% Maecenas ultricies augue a turpis viverra iaculis. Fusce a lorem est. Phasellus a metus dignissim, commodo eros eget, tempor ipsum.  \\
+
+% \noindent
+% \textbf{Professional Organization} \\
+% Maecenas ultricies augue a turpis viverra iaculis. Fusce a lorem est. Phasellus a metus dignissim, commodo eros eget, tempor ipsum.  \\
+
+% \noindent
+% \textbf{Professional Organization} \\
+% Maecenas ultricies augue a turpis viverra iaculis. Fusce a lorem est. Phasellus a metus dignissim, commodo eros eget, tempor ipsum.
+
+%------------------------
+
+% End document
+\end{document}
