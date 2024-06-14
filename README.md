@@ -1,6 +1,6 @@
 Hi there!
 ----
-I'm currently studying Mechanical Engineering in Technical School of Crete.
+I'm a Mechanical Engineer interested in software crafting and a consistent bug creator.
 
 Interesting
 -----
