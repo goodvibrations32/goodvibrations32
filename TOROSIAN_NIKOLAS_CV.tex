@@ -1,0 +1,204 @@
+%-------------------------
+% CV for Northeastern University Faculty in Latex
+% Author : Zoe Kearney
+% Based off of: https://www.overleaf.com/latex/templates/coles-resume-template/qhpynjcvjpcj
+% Follows: https://theprofessorisin.com/2016/08/19/dr-karens-rules-of-the-academic-cv/
+% License : MIT
+%------------------------
+
+% Document class and font size
+\documentclass[a4paper,9pt]{extarticle}
+
+% Packages
+\usepackage[utf8]{inputenc} % For input encoding
+\usepackage[LGR]{fontenc}
+\usepackage{csquotes}
+\usepackage[T1]{fontenc}
+\usepackage[english, greek]{babel}
+\usepackage{geometry} % For page margins
+\geometry{a4paper, margin=1in} % Set paper size and margins
+\usepackage{titlesec} % For section title formatting
+\usepackage{enumitem} % For itemized list formatting
+\usepackage{hyperref} % For hyperlinks
+\hypersetup{colorlinks=true, linkcolor=black, citecolor=black, urlcolor=black}
+
+% Formatting
+\setlist{noitemsep} % Removes item separation
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}[\titlerule] % Section title format
+\titlespacing*{\section}{0pt}{\baselineskip}{\baselineskip} % Section title spacing
+
+% Begin document
+\begin{document}
+
+% \newcommand{\en}[1]{\selectlanguage{english}\text{#1}\selectlanguage{greek}}
+% Disable page numbers
+\pagestyle{empty}
+
+\selectlanguage{english}
+% Header
+\begin{center}
+\textbf{\Large Nikolas Torosian }\\[3pt] % Name
+\textbf{Cover Letter}\\[1pt] % CV
+Athens, Greece
+| \href{mailto:niktor32@gmail.com}{niktor32@gmail.com} | (0030) 6974621399 | \href{https://www.linkedin.com/in/nikolas-torosian-700235273/}{linkedin.com/in/nikolas-torosian} | \href{https://github.com/goodvibrations32/}{github.com/goodvibrations32}   % Contact info
+\end{center}
+
+%------------------------
+\section*{Hi!}
+I do extreme sports, trips in the wild and read the BSD's man pages. Currently
+working on an electronic musical instrument company, targeting a specific format called Eurorack
+Synthesizers. I will be happy to talk for any of these, but below are important experience and experties.\\
+% Employment Section
+\section*{Employment}
+\noindent
+\begin{itemize}
+\item{\textbf{Founder of electronic instruments production laboratory}}\\
+  \textbf{10/2025 until now}, Awfulbytes\\
+  The main goal of our space is to construct and supply open hardware/software electronic
+  instruments. For more information you could visit \href{https://awfulbytes.org}{www.awfulbytes.org}
+  or contact us with any questions at \href{maito:info@awfulbytes.org}{info@awfulbytes.org}.\\
+\item{\textbf{Practical work semester}}\\
+  \textbf{11/2023 until 04/2024}, S.C.O CommonsLab\\
+  Most of the time spend for my mandatory practical work for the Bachelor of Mechanical
+  Engineering was about designing and constructing with 3D printing plastic, cases for
+  electronic devices ment for industrial environment. \\
+\item{\textbf{N.C. Press Brake Technician}} \\
+  \textbf{06/2022 until 12/2022}, Mataliotakis A.E. Heraklion, Crete \\
+  Most of my time there was custom solutions for customers with a variety of needs and
+  specifications. Most notably we were supplying a local truck mechanic shop with
+  folded sheet metal compartments. Among other, parts for some race cars where made
+  there with the owners approval.\\
+\end{itemize}
+%------------------------
+
+% Publications Section
+% \section*{Επιστημονικές δημοσιεύσεις}
+
+%------------------------
+
+% Conference Activity Section
+\section*{Conferences}
+\subsection*{Oral presentations}
+\noindent
+\begin{itemize}
+  \item{\textbf{Filtering approaches for wind tunnel power measurements in an inverter
+        induced noise environment}} \\
+        \textbf{1 June 2022} \\
+        DEMSEE-2022 14th Deregulated Electricity Market issues in South-Eastern Europe \\
+        Nikolaos Papadakis, Konstantine Kontaksakis, Nikolaos Torosian
+\end{itemize}
+%------------------------
+% Research Experience Section
+\section*{Research Experience}
+\noindent
+\begin{itemize}
+\item{\textbf{Research of Direct Digital Synthesis for a tunable oscillator in C}}\\
+        \textbf{08/2024 until now}\\
+        For the construction of a tunable voltage controlled oscillator programmed on an ARM mcu
+        with fixed point arithmetic, a huge number of designes (theoretical consepts and
+        applyied algorithms) where studied and prototyped for the construction of the first
+        product for Awfulbytes.\\
+\item{\textbf{Design development and production of an electronic devices' housing}} \\
+        \textbf{11/23 until 04/24} \\
+        Practical work semester at CommonsLab\\
+        From design to production of the housing was all inhouse with 3D printing
+        manufacturing. Many difficulties were delt with early in development of
+        engineering samples. The project waw funded by the E.U., in a program
+        called Better Factory, aiming to upscale and modernize the automation
+        technologies in factories.\\
+\item{\textbf{Digital Signal Post-Processing and noise reduction from EMI}}\\
+        \textbf{2021 until 2023} \\
+        Hellenic Mediterranean University\\
+        Analisys of linearly recorded signals and filtering of electromagnetic
+        interferences from the environment. All the work is available on github \href{https://github.com/hmu-mech-npap/}{here}
+\end{itemize}
+%------------------------
+% % Professional Skills Section
+%% \pagebreak
+\section*{Professional Skills and experties}
+\begin{itemize}
+% \noindent
+% \newline
+% \textbf{Skill} \\
+% Maecenas ultricies augue a turpis viverra iaculis. Fusce a lorem est. Phasellus a metus dignissim, commodo eros eget, tempor ipsum.  \\
+% \noindent
+\item{\textbf{CAD/CAM/CAE/ECAD Software}} \\
+        Knowledgable in all software from Autodesk, with speciality at Inventor, Fusion360, AutoCad. General knowledge about PTC Creo CAM capabilities and realy good knowledge on circuit and pcb design primarily on KiCad. Extended knowledge about printed circuit board behavior and analysis.\\
+
+\item{\textbf{C Programming Language}}\\
+        \noindent
+        Very good knowledge on microcontroller bare metal programming with experties in the ARM family,
+        and extensive familiarity with freestanding applications. Less knowledgable about real-time OS's
+        like Zephyr/RTOS.\\
+
+\item{\textbf{LaTeX}} \\
+        \noindent
+        Advanced knowledge of compiling technical reviews and documents. What you are
+        reading now is in LaTeX and you can confirm it \href{https://github.com/goodvibrations32/goodvibrations32/tree/master?search=1}{here}.\\
+
+\item{\textbf{Emacs text editor}} \\
+        \noindent
+        Excellent knowledge of the base installation with personallized settings to enhance
+        productivity. My dissertation for the Bachelor as well as most of the documents I
+        produced were heavily dependent in Org Mode and written in the Org Rich Text format. 
+        The ability to run code blocks and produce tables at the time of compiling to pdf,
+        gave me the oportunity to focus on improving the material and phrasing of the
+        document instead of hunting for my latest .png plot.\\
+
+\item{\textbf{Zig Programming Language}} \\
+        \noindent
+        Good level of understanding and using the features of the language, like arena allocators and
+        scope defer. Mostly worked on TUI's with simple but interesting command line interface tools.\\
+
+\item{\textbf{Rust Programming Language}} \\
+        \noindent
+        Good knowledge of the standard library and external libraries for signal
+        analysis and plot generation from datasets. Adequate knowledge of the
+        overall ecosystem of the language.\\
+
+\item{\textbf{Python Programming Language}} \\
+        \noindent
+        Intermediate knowledge of the language and increased knowledge on the
+        overall ecosystem of the language. Signal analysis and interactive puzzle
+        game using QR codes as pieces are among projects I have worked on.\\
+
+\item{\textbf{Github Actions}} \\
+        \noindent
+        Good knowledge of the tools offered by github for CI/CD. Used to test python projects
+        in Windows and Linux, briefly used to generate simple PDF technical documents.\\
+\end{itemize}
+
+%------------------------
+% Education Section
+\section*{Education}
+
+\noindent
+\begin{itemize}
+  \item{\textbf{Bachelor in Mechanical Engineering T.E.}} \\
+        \textbf{2024}, Hellenic Mediterranean University \\
+\noindent
+  \item{\textbf{High School Education}} \\
+        \textbf{2013--2014}, Erasmios Greek \& German School Athens, Greece \\
+\end{itemize}
+
+
+% % Professional Memberships Section
+% \section*{PROFESSIONAL MEMBERSHIPS}
+
+% \noindent
+% \newline
+% \textbf{Professional Organization} \\
+% Maecenas ultricies augue a turpis viverra iaculis. Fusce a lorem est. Phasellus a metus dignissim, commodo eros eget, tempor ipsum.  \\
+
+% \noindent
+% \textbf{Professional Organization} \\
+% Maecenas ultricies augue a turpis viverra iaculis. Fusce a lorem est. Phasellus a metus dignissim, commodo eros eget, tempor ipsum.  \\
+
+% \noindent
+% \textbf{Professional Organization} \\
+% Maecenas ultricies augue a turpis viverra iaculis. Fusce a lorem est. Phasellus a metus dignissim, commodo eros eget, tempor ipsum.
+
+%------------------------
+
+% End document
+\end{document}
